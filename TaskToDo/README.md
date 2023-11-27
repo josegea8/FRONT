@@ -15,8 +15,8 @@
 <img src="https://sweetalert2.github.io/images/SweetAlert2.png" alt="sw" style="width:300px;"/>
 <img src="https://www.bypeople.com/wp-content/uploads/2019/02/sweet-alert-2-featured.png" alt="sw2" style="width:350px;"/>
 
-<img src="c1.png" alt="drawing" align="left" style="width:300px;"/>
-<img src="c2.png" alt="drawing" align="left" style="width:300px;"/>
-<img src="c3.png" alt="drawing" align="left" style="width:300px;"/>
+<img src="t1.png" alt="drawing" style="width:85%;"/>
+<img src="t2.png" alt="drawing" style="width:85%;"/>
+<img src="t3.png" alt="drawing"  style="width:45%;"/>
 
  

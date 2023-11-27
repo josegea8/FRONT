@@ -1,0 +1,347 @@
+*{
+	margin: 0;
+	font-family: monospace;
+}
+
+.navMenu{
+	display: flex;
+}
+
+
+#editHead{
+	display: flex;
+	border: none;
+	text-align: center;
+	width: 44%;
+	height: 100px;
+	align-items: center;
+	margin-left: 49%;
+	margin-top: 2%;
+}
+
+.divPage #titleTask{
+	 color: white;
+	 font-size: 25px;
+	 letter-spacing: 5px;
+	 border: none;
+	 width: 25%;
+	 padding-left: 2%;
+}
+
+
+.divPage{
+	border: none;
+	width: 90%;
+	text-align: left;
+}
+
+.container{
+	display: inline-flex;
+	align-content: center;
+	width: 44%;
+  flex-direction: column;
+	margin: 2%;
+}
+
+.container2{		
+	display: inline-flex;
+	align-content: center;
+  flex-direction: column;
+  box-sizing: border-box;
+	width: 47%;
+	margin: 2%;
+}
+
+ 
+
+#formPage{
+	box-shadow: 5px 5px 10px #0008;
+	height: 100%;
+	padding: 2rem;
+	background-color: white;
+	border-radius: .4rem;
+}
+
+#formPage label{
+	font-size: 20px;
+	font-family: monospace;
+
+}
+
+#formPage input[type=text]{
+	width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  outline-color: royalblue;
+}
+
+#formPage input[type=submit]{
+	width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  font-size: 20px;
+  font-family: sans-serif;
+  border: none;
+  color:white;
+  cursor: pointer;
+  transition: width .4s;
+  border-radius: .4rem;
+  box-sizing: border-box;
+  background-color: royalblue;
+}
+
+#formPage input[type=submit]:hover{
+	width: 98%;
+  font-size: 20px;
+  font-family: sans-serif;
+  border: none;
+  font-weight: bold;
+  color:white;
+  cursor: pointer;
+  border-radius: .4rem;
+  box-sizing: border-box;
+  background-color: #4181e1;
+}
+
+ 
+#divImg{
+	margin-right: 0;
+	margin-top: 0;
+	width: 5%;
+	text-align: center;
+	float: right;
+	border: none;
+}
+ 
+.inputfile {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+ 
+ 
+#avatarFoto{
+	cursor: pointer;
+	border-radius: 50%;;
+	padding: .2%	;
+}
+
+ul {
+	width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: .8% 1%;
+  overflow: hidden;
+  background-color:midnightblue;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  padding: 18px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: royalblue;
+}
+
+#titleInput{
+	border-radius: .2rem;
+	color: #4f4f4f;
+	font-size: 25px;
+	outline: none;
+	border: none;
+	width: 85%;
+	margin: 2%;
+	padding: 2%;
+}
+
+#inputBtn{
+	margin-right:0;
+	border: none;
+	width: 15%;
+	border-radius: .2rem;
+	font-size:20px;
+	text-align: center;
+	height: 63px;
+	padding: 2%;
+	cursor: pointer;
+}
+
+ 
+
+#inputBtn:hover{
+	background-color: #c3c3c3;
+	color: #4f4f4f;
+}
+
+
+/* Popup container - can be anything you want */
+.popup {
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+ 
+/* The actual popup */
+.popup .popuptext {
+	visibility: hidden;
+  text-align: center;
+ 
+  position: absolute;
+  right: 32%;
+  width: 350px;
+  background-color: ghostwhite;
+  color: #4f4f4f;
+  top:10%;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 6px;
+  padding: 8px 0;
+  text-align: center;
+  z-index: 1;
+}
+
+
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 20%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #fff transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;} 
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+
+ 
+/* RESPONSIVE MOVIL */
+@media all and (max-width: 968px){
+
+li a {
+  color: white;
+  font-size: 16px;
+  padding: 20px 10px;
+}
+
+ 
+#divImg{
+	margin-top: 1%;
+	margin-right: 10%;
+	width: 5%;
+	text-align: center;
+	float: right;
+	border: none;
+}
+
+ 
+/* The actual popup */
+.popup .popuptext {
+  text-align: center;
+  position: absolute;
+  left: 3.6%;
+  width: 250px;
+  background-color: ghostwhite;
+  color: #4f4f4f;
+  top:8%;
+  font-weight: bold;
+  font-size: 12px;
+  border-radius: 6px;
+  padding: 6px 0;
+  text-align: center;
+  z-index: 1;
+}
+
+
+
+
+#editHead{
+	margin-left: 5%;
+	border: none;
+	width: 90%;
+}
+
+
+#titleInput{
+	font-size: 18px;
+	outline: none;
+	border: none;
+	width: 75%;
+	margin: 2%;
+	padding: 3%;
+}
+
+#inputBtn{
+	margin-right: 2%;
+	width: 25%;
+	font-size:16px;
+	height: 42px;
+}
+
+.container{
+	display: inline-flex;
+	align-content: center;
+  flex-direction: column;
+  box-sizing: border-box;
+	width: 100%;
+	padding: 2%;
+	margin: 0%;
+
+}
+
+.divPage #titleTask{
+	 color: white;
+	 font-size: 20px;
+	 text-align: center;
+	 letter-spacing: 5px;
+	 border: none;
+	 width: 100%;
+	 padding-left: 2%;
+}
+
+.container2{	
+
+	justify-content: center;
+	display: inline-flex;
+	align-content: center;
+  flex-direction: row;
+  box-sizing: border-box;
+	width: 96%;
+	margin: 1%;
+}
+ 
+}

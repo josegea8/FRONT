@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+		<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.10.0/dist/sweetalert2.all.min.js"></script>
+		<link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.10.0/dist/sweetalert2.min.css" rel="stylesheet">
+		<title>JS DOM EXAMPLE 1</title>
+	</head>
+	<body style="background-color: royalblue;">
+	<div class="navMenu">
+		<ul>
+  			<li><a class="active" href="#home">Home</a></li>
+  			<li><a href="#news">News</a></li>
+  			<li><a href="#contact">Contact</a></li>
+  			<li><a href="#about">About</a></li>
+
+  			<div id="divImg">
+  				<input type="file" name="file-6" id="file-6" class="inputfile inputfile-6" accept="image/*" onchange="document.getElementById('avatarFoto').src = window.URL.createObjectURL(this.files[0])" />
+  				<label for="file-6">
+				
+				<figure>
+					<img src="https://img.icons8.com/pastel-glyph/64/FFFFFF/user-male-circle.png" alt="foto" id="avatarFoto" width="50" height="50" >
+				</figure>
+				</label>
+  			</div>
+		</ul>
+	</div>
+
+
+		<div class="popup">
+		  <span class="popuptext" id="myPopup">Porfavor introduce un titulo</span>
+		</div>
+	 	
+		<div id="editHead">
+			<input type="text" name="title" id="titleInput" placeholder="Write your title..." >
+			
+			<button id="inputBtn"  onclick="changeText()">Edit</button>
+		</div>
+
+		<center><div class="divPage">
+			<p id="titleTask">Aqui van tus tareas:</p>
+			<div class="container"> 
+			<script type="text/javascript" src="cont.js"></script>
+			</div>
+
+
+			<div class="container2">
+					<form id="formPage" onsubmit="return validateForm();">
+				        <h1 style="margin-bottom: 4%;text-decoration-line: underline;">Formulario:</h1>
+				        <label for="getTitle">Titulo:</label>
+       					<input id="getTitle" type="text" size="12"/><br>
+
+       					<label for="getCont">Contenido:</label>
+       					<input id="getCont" type="text" size="12"/><br>
+
+				        <label for="getAut">Autor:</label>
+       					<input id="getAut" type="text" size="12"/><br>
+  						<center><input type="submit" value="Añadir Tarea"></center>
+					</form>
+			</div>
+	</div></center>
+	</body>
+</html>

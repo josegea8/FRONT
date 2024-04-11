@@ -1,6 +1,7 @@
 # TASK TO DO: 
 
 ### Proyecto básico de Tareas donde podremos:...
+Más adelante junto al lado de la parte <i><b>back end</b></i> se podra: (edita,eliminar,mostrar hora tarea,inclusive programar a que hora debe de estar finalizada la tarea)
 <ul>
   <li>Crear tareas</li>
   <li>Agregar el Titulo de la tarea</li>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.png">
+    
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- SWEET ALERT -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.10.0/dist/sweetalert2.all.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.10.0/dist/sweetalert2.min.css" rel="stylesheet">
+    
+    <title>3 EN RAYA</title>
+</head>
+<body>
+    <div class="main">
+        <h2>BIENVENIDO AL 3 EN RAYA!</h2>
+            
+
+
+        <!-- JUGADORES -->
+        <div class="players">
+            <button disabled onclick="playGame(1);">1 Jugador</button>
+            <button onclick="playGame(2);">2 Jugadores</button>
+        </div>
+
+
+        <!-- GAMEBOARD -->
+        <div class="gameBoard">
+            <div class="box" id="0"></div>
+            <div class="box" id="1"></div>
+            <div class="box" id="2"></div>
+            <div class="box" id="3"></div>
+            <div class="box" id="4"></div>
+            <div class="box" id="5"></div>
+            <div class="box" id="6"></div>
+            <div class="box" id="7"></div>
+            <div class="box" id="8"></div>
+        </div>
+        
+        <!-- RESET -->
+        <div class="reset">
+            <button id="resetBtn" type="button">Reset</button>
+        </div>
+
+
+        <!-- PUNTUACION -->
+        <div class="gameHeader" >
+          <p></p>
+          <img src="assets/conf.png" alt="">
+        </div>
+        
+        <!-- JS -->
+        <script src="control.js"></script> 
+    </div>
+</body>
+</html>

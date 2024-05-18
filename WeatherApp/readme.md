@@ -5,9 +5,10 @@ También se ha incorporado para mostrar pop ups de diálogo: <a href="https://sw
 
 # FUNCIONES
 <ul> 
+  <li>Responsive para Escritorio y Móvil</li>
   <li>Selector de ciudad</li>
   <li>Selecotr de País</li>
-  <li>Visualizar Resultados con<br>+ Temperatura (Normal | Max | Min)</li>
+  <li>Visualizar Resultados con == Temperatura (Normal | Max | Min)</li>
 </ul>
 <br>
 

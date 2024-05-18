@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Clima</title>
+    <!-- Icono proviene de https://icons8.com/icons/set/clima -->
+    <link type="image/png" sizes="16x16" rel="icon" href="rsc/icon.png">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <section id="weatherContainer">
+        <div id="frame">
+        <!-- CONTENIDO DESDE EL DOM JS-->
+        </div>
+        
+        <div id="frameSel">
+            <h2>FORMULARIO</h2>
+            <!-- FORM -->
+            
+            <form action="" method="post" class="get-weather">
+                <div class="boxForm">
+                    <img src="rsc/findTime.gif" alt="">
+                    <input type="text" id="cityInput" placeholder="Ciudad"/>
+                    <select name="" id="country">
+                        <option disabled selected value="">Selecciona una ciudad</option>
+                        <option value="ES">España</option>
+                        <option value="AR">Argentina</option>
+                        <option value="CO">Colombia</option>
+                        <option value="CR">Costa Rica</option>
+                        <option value="US">Estados Unidos</option>
+                        <option value="MX">México</option>
+                        <option value="PE">Perú</option>
+                    </select>
+                    <input type="submit" name="" id="timeBtn" value="Buscando el Tiempo"/>
+                </div>
+            </form>
+        </div> 
+    </section>
+
+    <script src="./js/control.js"></script><script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.10.6/dist/sweetalert2.all.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.10.6/dist/sweetalert2.min.css" rel="stylesheet">
+ </body>
+</html>

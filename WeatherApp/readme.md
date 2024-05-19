@@ -1,8 +1,8 @@
 # API DEL CLIMA: 
 
+!Para obtener la apiKey hay que seguir los pasos segun lo que nos pida en su web 
 ## Proyecto con la integración de una api del clima -> <b><a href="https://openweathermap.org/api">API 
 También se ha incorporado para mostrar pop ups de diálogo: <a href="https://sweetalert2.github.io/">SweetAlert
-
 # FUNCIONES
 <ul> 
   <li>Responsive para Escritorio y Móvil</li>

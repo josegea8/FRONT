@@ -33,7 +33,8 @@ function showAlert(message,type) {
 }
 
 function callAPI(city,country){
-    const apiId = '43c393488dea0bccd546bd45e01b07fc';
+    //Para obtener la apiKey hay que seguir los pasos segun lo que nos pida en su web
+    const apiId = 'Aqui_va_la_api_key';
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${city},${country}&appid=${apiId}`;
     fetch(url)
         .then(response => {
